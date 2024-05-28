@@ -1,0 +1,42 @@
+
+.post-container {
+  width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  .post-top-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px 0 48px;
+
+    .posts-total {
+      display: inline-block;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+      font-size: 16px;
+      color: #404258;
+      // padding: 32px 0;
+      // margin-bottom: 16px;
+    }
+
+    .create-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "NanumSquare";
+      font-weight: 500;
+      background: #B983FF;
+      color: #fff;
+      border: 0;
+      border-radius: 5px;
+      padding: 8px 15px 8px 13px;
+      cursor: pointer;
+
+      span {
+        margin-left: 10px;
+      }
+    }
+  }
+}

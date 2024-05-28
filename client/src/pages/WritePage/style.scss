@@ -1,0 +1,150 @@
+.write-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-family: "NanumSquare";
+  background: #fbfdfc;
+
+  .write-card {
+    width: 1000px;
+    // height: 90%;
+    background: #fff;
+    border-radius: 14px;
+    padding: 32px 48px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+    .top-area {
+      display: flex;
+      align-items: center;
+      margin-bottom: 28px;
+
+      select {
+        width: 100px;
+        height: 24px;
+        border: 1px solid #bdbdbd;
+        border-radius: 4px;
+        outline: 0;
+        cursor: pointer;
+
+        &.dis {
+          color: #bdbdbd;
+        }
+
+        .others {
+          color: #000;
+        }
+      }
+
+      .boundary-line {
+        width: 1px;
+        height: 19px;
+        background: #eeeeee;
+        margin: 0 32px;
+      }
+    }
+
+    & > .input-area {
+      margin-bottom: 20px;
+    }
+
+    .content-area {
+      border-top: 1px solid #eeeeee;
+      margin-top: 32px;
+      padding-top: 21px;
+
+      textarea {
+        width: 100%;
+        height: 65vh;
+        border: 0;
+        outline: 0;
+
+        &::placeholder {
+          color: rgb(202, 202, 202);
+        }
+      }
+    }
+
+    label {
+      display: none;
+    }
+
+    input {
+      font-family: "NanumSquare";
+      border: 0;
+      outline: 0;
+    }
+    input::placeholder {
+      color: rgb(202, 202, 202);
+    }
+
+    #title {
+      height: 48px;
+      font-size: 32px;
+      font-weight: 900;
+    }
+
+    .title-line {
+      display: block;
+      width: 60px;
+      height: 5px;
+      background: rgb(78, 78, 78);
+      margin-top: 16px;
+      margin-bottom: 32px;
+    }
+
+    #subTitle {
+      font-size: 24px;
+      height: 32px;
+      font-weight: 700;
+    }
+
+    .btn-wrap {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 28px;
+
+      button {
+        background: none;
+        border: 0;
+        outline: 0;
+        font-family: "NanumSquare";
+        font-size: 18px;
+      }
+
+      .completed {
+        color: #fff;
+        background: #B983FF;
+        padding: 8px 15px 6px;
+        border-radius: 5px;
+      }
+
+      .exit {
+        display: flex;
+        align-items: center;
+
+        a {
+          color: #000;
+        }
+
+        span {
+          margin-left: 10px;
+          vertical-align: top;
+        }
+      }
+    }
+  }
+}
+
+.ql-toolbar.ql-snow {
+  border: 0;
+  padding-bottom: 24px;
+  // border-bottom: 1px solid #eeeeee;
+}
+
+.ql-container.ql-snow {
+  height: 61vh;
+  border: 0;
+}
